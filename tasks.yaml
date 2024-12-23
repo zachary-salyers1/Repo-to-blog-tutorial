@@ -1,0 +1,30 @@
+analyze_repository_task:
+  description: >
+    Analyze the given GitHub repository to determine its purpose, features, and structure. 
+    Extract key details, such as the main functionality, configuration requirements, and examples of usage.
+  expected_output: >
+    A detailed summary of the repository's purpose, structure, and main features, including code snippets 
+    or examples demonstrating its functionality.
+
+write_tutorial_task:
+  description: >
+    Create a step-by-step tutorial explaining how to set up and use the repository. 
+    Include practical examples that demonstrate how to implement key features and configurations.
+  expected_output: >
+    A markdown-formatted tutorial with clear sections, code examples, and instructions for setup, configuration, and usage.
+
+seo_optimization_task:
+  description: >
+    Review the tutorial and optimize it for SEO by adding keywords, headings, meta descriptions, and improving readability. 
+    Ensure technical details, examples, and repository-specific content are preserved.
+  expected_output: >
+    An SEO-optimized version of the tutorial ready for blog formatting with all necessary metadata, 
+    retaining repository-specific details and examples.
+
+format_blog_post_task:
+  description: >
+    Adapt the tutorial into an engaging blog post format with headings, sections, and storytelling elements. 
+    Emphasize the repository’s real-world applications and use cases while ensuring SEO compliance.
+  expected_output: >
+    A blog post formatted in markdown, ready for publishing, highlighting the repository's features, 
+    use cases, and technical implementation details.
